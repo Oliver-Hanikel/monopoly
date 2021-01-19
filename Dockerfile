@@ -4,6 +4,6 @@ COPY . .
 RUN npx lerna bootstrap
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 8080
 WORKDIR /server
 CMD ["npm", "start"]
